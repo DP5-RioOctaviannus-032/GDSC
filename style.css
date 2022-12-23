@@ -1,0 +1,24 @@
+body {
+    background: linear-gradient(to right bottom, #e1b382, #c89666);
+    width: 100%;
+    min-height:100vh;
+    justify-content: center;
+    align-items: center;
+}
+.btn-info{
+    background-color: cornflowerblue;
+    cursor: pointer;
+    border-radius: 0;
+}
+.btn-primary{
+    background-color: green; 
+}
+
+.table{
+    background-color: #CD853F;
+    border-color: black;
+}
+
+tr:nth-child(even) {
+    background-color: #FFDAB9;
+}
